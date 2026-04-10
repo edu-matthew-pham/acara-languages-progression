@@ -1,0 +1,526 @@
+{
+  "description": "Languages F-10 (Second Language pathway) capability progression map. Two strands: Communicating and Understanding. Sub-strand headings are generic across all ACARA Languages — 'the target language' can be interpreted for any selected language.",
+  "subject": "Languages",
+  "language": "Target Language",
+  "pathway": "F-10 Second Language",
+  "curriculum": "ACARA v9",
+  "_notes": {
+    "generic_structure": "Sub-strand headings and progression logic are identical across all ACARA Languages F-10 pathways. Only codes and language-specific content differ.",
+    "placeholder_note": "Labels use 'the target language' so the file can be reused across languages. Keep ACARA codes unchanged unless your renderer explicitly supports code substitution.",
+    "foundation": "Foundation has 3 undifferentiated codes before the sub-strand structure begins at Y1-2."
+  },
+  "levels": {
+    "F": {
+      "label": "Foundation",
+      "standards": [
+        {
+          "code": "AC9LSF01",
+          "title": "Recognise and communicate meaning",
+          "description": "with support, recognise and communicate meaning in the target language",
+          "capability_goal": "Students recognise and communicate meaning in the target language with support.",
+          "sub_strand": "interacting",
+          "level_key": "F"
+        },
+        {
+          "code": "AC9LSF02",
+          "title": "Explore language features",
+          "description": "explore, with support, language features of the target language noticing similarities and differences between the target language and English",
+          "capability_goal": "Students explore language features of the target language, noticing similarities and differences with English.",
+          "sub_strand": "understanding_systems",
+          "level_key": "F"
+        },
+        {
+          "code": "AC9LSF03",
+          "title": "Explore language and culture connections",
+          "description": "explore connections between language and culture",
+          "capability_goal": "Students explore connections between language and culture.",
+          "sub_strand": "understanding_culture",
+          "level_key": "F"
+        }
+      ]
+    },
+    "1-2": {
+      "label": "Years 1-2",
+      "standards": [
+        {
+          "code": "AC9LS2C01",
+          "title": "Recognise and respond to classroom language",
+          "description": "recognise and respond to modelled classroom-related greetings, instructions and routines, and personal introductions",
+          "capability_goal": "Students recognise and respond to modelled classroom greetings, instructions, routines and personal introductions.",
+          "sub_strand": "interacting",
+          "level_key": "1-2"
+        },
+        {
+          "code": "AC9LS2C02",
+          "title": "Participate in guided language activities",
+          "description": "participate in a range of guided, play-based language activities using formulaic expressions, visual and spoken cues",
+          "capability_goal": "Students participate in guided, play-based language activities using formulaic expressions and visual cues.",
+          "sub_strand": "interacting",
+          "level_key": "1-2"
+        },
+        {
+          "code": "AC9LS2C03",
+          "title": "Locate key information in familiar texts",
+          "description": "locate, with support, key information in familiar texts, and respond using gestures, images, words and formulaic phrases",
+          "capability_goal": "Students locate key information in familiar texts and respond using gestures, images and formulaic phrases.",
+          "sub_strand": "mediating",
+          "level_key": "1-2"
+        },
+        {
+          "code": "AC9LS2C04",
+          "title": "Language carries cultural meaning",
+          "description": "notice that language carries cultural meaning in classroom-related greetings, introductions, instructions and routines",
+          "capability_goal": "Students notice that language carries cultural meaning in classroom greetings, introductions and routines.",
+          "sub_strand": "mediating",
+          "level_key": "1-2"
+        },
+        {
+          "code": "AC9LS2C05",
+          "title": "Create texts using familiar language",
+          "description": "use words, familiar phrases and modelled language to create spoken, written and multimodal texts",
+          "capability_goal": "Students use words, familiar phrases and modelled language to create spoken, written and multimodal texts.",
+          "sub_strand": "creating",
+          "level_key": "1-2"
+        },
+        {
+          "code": "AC9LS2U01",
+          "title": "Sounds and rhythms of the target language",
+          "description": "recognise and imitate the sounds and rhythms of the target language",
+          "capability_goal": "Students recognise and imitate the sounds and rhythms of the target language.",
+          "sub_strand": "understanding_systems",
+          "level_key": "1-2"
+        },
+        {
+          "code": "AC9LS2U02",
+          "title": "Roman alphabet and language features",
+          "description": "recognise that the Roman alphabet and features of language are used to construct meaning in the target language",
+          "capability_goal": "Students recognise how the Roman alphabet and language features construct meaning in the target language.",
+          "sub_strand": "understanding_systems",
+          "level_key": "1-2"
+        },
+        {
+          "code": "AC9LS2U03",
+          "title": "Target language and English similarities",
+          "description": "notice that the target language has features that may be similar to or different from English",
+          "capability_goal": "Students notice similarities and differences between the target language and English language features.",
+          "sub_strand": "understanding_systems",
+          "level_key": "1-2"
+        },
+        {
+          "code": "AC9LS2U04",
+          "title": "Language reflects cultural practices",
+          "description": "notice that people use language in ways that reflect cultural practices",
+          "capability_goal": "Students notice that people use language in ways that reflect cultural practices.",
+          "sub_strand": "understanding_culture",
+          "level_key": "1-2"
+        }
+      ]
+    },
+    "3-4": {
+      "label": "Years 3-4",
+      "standards": [
+        {
+          "code": "AC9LS4C01",
+          "title": "Initiate and respond to questions",
+          "description": "initiate exchanges and respond to modelled questions about self, others, and classroom environment, using formulaic expressions",
+          "capability_goal": "Students initiate exchanges and respond to modelled questions about self, others and classroom using formulaic expressions.",
+          "sub_strand": "interacting",
+          "level_key": "3-4"
+        },
+        {
+          "code": "AC9LS4C02",
+          "title": "Plan with others using familiar phrases",
+          "description": "participate in activities that involve planning with others, using a range of familiar phrases and modelled structures",
+          "capability_goal": "Students participate in activities involving planning with others using familiar phrases and modelled structures.",
+          "sub_strand": "interacting",
+          "level_key": "3-4"
+        },
+        {
+          "code": "AC9LS4C03",
+          "title": "Locate and respond to key information",
+          "description": "locate and respond to key information related to familiar content obtained from spoken, written and multimodal texts",
+          "capability_goal": "Students locate and respond to key information in spoken, written and multimodal texts on familiar content.",
+          "sub_strand": "mediating",
+          "level_key": "3-4"
+        },
+        {
+          "code": "AC9LS4C04",
+          "title": "Comprehend and convey cultural meaning",
+          "description": "develop strategies to comprehend and adjust the target language in familiar contexts to convey cultural meaning",
+          "capability_goal": "Students develop strategies to comprehend and adjust language in familiar contexts to convey cultural meaning.",
+          "sub_strand": "mediating",
+          "level_key": "3-4"
+        },
+        {
+          "code": "AC9LS4C05",
+          "title": "Create informative and imaginative texts",
+          "description": "create and present informative and imaginative spoken, written and multimodal texts using formulaic expressions, simple phrases and sentences and modelled textual conventions",
+          "capability_goal": "Students create and present informative and imaginative texts using formulaic expressions and modelled conventions.",
+          "sub_strand": "creating",
+          "level_key": "3-4"
+        },
+        {
+          "code": "AC9LS4U01",
+          "title": "Sounds, pronunciation and intonation",
+          "description": "recognise and use modelled combinations of sounds, pronunciation and intonation patterns of the target language to form words and phrases",
+          "capability_goal": "Students recognise and use modelled sounds, pronunciation and intonation patterns to form words and phrases.",
+          "sub_strand": "understanding_systems",
+          "level_key": "3-4"
+        },
+        {
+          "code": "AC9LS4U02",
+          "title": "Grammar and syntax in familiar texts",
+          "description": "recognise target language conventions, grammatical structures and basic syntax in familiar texts and contexts",
+          "capability_goal": "Students recognise target language conventions, grammatical structures and basic syntax in familiar texts.",
+          "sub_strand": "understanding_systems",
+          "level_key": "3-4"
+        },
+        {
+          "code": "AC9LS4U03",
+          "title": "Compare target language and English features",
+          "description": "recognise familiar target language features and compare with those of English, in known contexts",
+          "capability_goal": "Students recognise familiar target language features and compare them with English in known contexts.",
+          "sub_strand": "understanding_systems",
+          "level_key": "3-4"
+        },
+        {
+          "code": "AC9LS4U04",
+          "title": "Language and cultural practices",
+          "description": "identify connections between target language and cultural practices",
+          "capability_goal": "Students identify connections between target language and cultural practices.",
+          "sub_strand": "understanding_culture",
+          "level_key": "3-4"
+        }
+      ]
+    },
+    "5-6": {
+      "label": "Years 5-6",
+      "standards": [
+        {
+          "code": "AC9LS6C01",
+          "title": "Initiate and sustain exchanges",
+          "description": "initiate and sustain modelled exchanges in familiar contexts related to students' personal worlds and school environment",
+          "capability_goal": "Students initiate and sustain modelled exchanges in familiar contexts related to personal worlds and school.",
+          "sub_strand": "interacting",
+          "level_key": "5-6"
+        },
+        {
+          "code": "AC9LS6C02",
+          "title": "Plan and negotiate with others",
+          "description": "participate in activities that involve planning and negotiating with others, using language that expresses information, preferences and ideas",
+          "capability_goal": "Students participate in activities involving planning and negotiating using language expressing information and ideas.",
+          "sub_strand": "interacting",
+          "level_key": "5-6"
+        },
+        {
+          "code": "AC9LS6C03",
+          "title": "Process and respond to information",
+          "description": "locate and process information and ideas in a range of spoken, written and multimodal texts, and respond in different ways to suit purpose",
+          "capability_goal": "Students locate and process information in a range of texts and respond in ways suited to purpose.",
+          "sub_strand": "mediating",
+          "level_key": "5-6"
+        },
+        {
+          "code": "AC9LS6C04",
+          "title": "Interpret and convey cultural meaning",
+          "description": "apply strategies to interpret and convey meaning in the target language in familiar non-verbal, spoken and written cultural contexts",
+          "capability_goal": "Students apply strategies to interpret and convey meaning in familiar cultural contexts.",
+          "sub_strand": "mediating",
+          "level_key": "5-6"
+        },
+        {
+          "code": "AC9LS6C05",
+          "title": "Create varied texts with modelled structures",
+          "description": "create and present a range of informative and imaginative spoken, written and multimodal texts using a variety of modelled sentence structures to sequence information and ideas, and conventions appropriate to text type",
+          "capability_goal": "Students create a range of texts using modelled sentence structures to sequence ideas with appropriate conventions.",
+          "sub_strand": "creating",
+          "level_key": "5-6"
+        },
+        {
+          "code": "AC9LS6U01",
+          "title": "Fluency and rhythm in spoken target language",
+          "description": "apply knowledge of combinations of sounds, syllables, pronunciation and intonation patterns to develop fluency and rhythm to known words and phrases",
+          "capability_goal": "Students apply phonological knowledge to develop fluency and rhythm in known words and phrases.",
+          "sub_strand": "understanding_systems",
+          "level_key": "5-6"
+        },
+        {
+          "code": "AC9LS6U02",
+          "title": "Grammar to compose and respond",
+          "description": "use knowledge of modelled grammatical structures and formulaic expressions to compose and respond to texts, using appropriate punctuation and textual conventions",
+          "capability_goal": "Students use grammatical structures and formulaic expressions to compose and respond to texts.",
+          "sub_strand": "understanding_systems",
+          "level_key": "5-6"
+        },
+        {
+          "code": "AC9LS6U03",
+          "title": "Compare structures using metalanguage",
+          "description": "compare some target language structures and features with those of English, using some familiar metalanguage",
+          "capability_goal": "Students compare target language and English language structures using familiar metalanguage.",
+          "sub_strand": "understanding_systems",
+          "level_key": "5-6"
+        },
+        {
+          "code": "AC9LS6U04",
+          "title": "Language reflects culture and identity",
+          "description": "recognise that language reflects cultural practices, values and identity, and that this impacts on non-verbal and spoken communication",
+          "capability_goal": "Students recognise that language reflects cultural practices, values and identity and impacts communication.",
+          "sub_strand": "understanding_culture",
+          "level_key": "5-6"
+        }
+      ]
+    },
+    "7-8": {
+      "label": "Years 7-8",
+      "standards": [
+        {
+          "code": "AC9LS8C01",
+          "title": "Sustain exchanges in varied contexts",
+          "description": "initiate and sustain exchanges in familiar and some unfamiliar contexts related to students' experiences, feelings and views, adjusting their language in response to others",
+          "capability_goal": "Students initiate and sustain exchanges in familiar and unfamiliar contexts, adjusting language in response to others.",
+          "sub_strand": "interacting",
+          "level_key": "7-8"
+        },
+        {
+          "code": "AC9LS8C02",
+          "title": "Negotiate and problem-solve collaboratively",
+          "description": "collaborate in activities that involve the language of transaction, negotiation and problem-solving to plan projects and events",
+          "capability_goal": "Students collaborate using transaction, negotiation and problem-solving language to plan projects and events.",
+          "sub_strand": "interacting",
+          "level_key": "7-8"
+        },
+        {
+          "code": "AC9LS8C03",
+          "title": "Interpret and respond to diverse texts",
+          "description": "interpret information, ideas and opinions in a range of spoken, written and multimodal texts, and respond appropriately to cultural context, purpose and audience",
+          "capability_goal": "Students interpret information and opinions in diverse texts and respond appropriately to cultural context.",
+          "sub_strand": "mediating",
+          "level_key": "7-8"
+        },
+        {
+          "code": "AC9LS8C04",
+          "title": "Interpret and adjust for cultural context",
+          "description": "interpret and adjust non-verbal, spoken and written language to convey meaning in the target language in familiar and some unfamiliar cultural contexts",
+          "capability_goal": "Students interpret and adjust language to convey meaning in familiar and unfamiliar cultural contexts.",
+          "sub_strand": "mediating",
+          "level_key": "7-8"
+        },
+        {
+          "code": "AC9LS8C05",
+          "title": "Create texts for specific purposes",
+          "description": "create and present spoken, written and multimodal, informative and imaginative texts for specific purposes, selecting vocabulary, expressions, grammatical structures, features and conventions appropriate to text type and context",
+          "capability_goal": "Students create texts for specific purposes selecting vocabulary, structures and conventions appropriate to text type.",
+          "sub_strand": "creating",
+          "level_key": "7-8"
+        },
+        {
+          "code": "AC9LS8U01",
+          "title": "Spoken conventions for fluency",
+          "description": "apply knowledge of conventions of spoken the target language to enhance fluency, and to respond to and create texts in familiar and some unfamiliar contexts",
+          "capability_goal": "Students apply spoken conventions to enhance fluency in familiar and some unfamiliar contexts.",
+          "sub_strand": "understanding_systems",
+          "level_key": "7-8"
+        },
+        {
+          "code": "AC9LS8U02",
+          "title": "Grammar to compose and respond",
+          "description": "apply understanding of grammatical structures and expressions to compose and respond to texts",
+          "capability_goal": "Students apply grammatical structures and expressions to compose and respond to texts.",
+          "sub_strand": "understanding_systems",
+          "level_key": "7-8"
+        },
+        {
+          "code": "AC9LS8U03",
+          "title": "Reflect on language differences",
+          "description": "reflect on similarities and differences between the target language and English language structures and features, using metalanguage",
+          "capability_goal": "Students reflect on similarities and differences between the target language and English using metalanguage.",
+          "sub_strand": "understanding_systems",
+          "level_key": "7-8"
+        },
+        {
+          "code": "AC9LS8U04",
+          "title": "Identity shaped by language and culture",
+          "description": "reflect on and explain how identity is shaped by language(s), culture(s), attitudes, beliefs and values",
+          "capability_goal": "Students reflect on and explain how identity is shaped by languages, cultures, attitudes and values.",
+          "sub_strand": "understanding_culture",
+          "level_key": "7-8"
+        }
+      ]
+    },
+    "9-10": {
+      "label": "Years 9-10",
+      "standards": [
+        {
+          "code": "AC9LS10C01",
+          "title": "Extend exchanges in varied contexts",
+          "description": "initiate, sustain and extend exchanges in familiar and unfamiliar contexts related to students' own and others' experiences of the world, adjusting their language in response to others",
+          "capability_goal": "Students initiate, sustain and extend exchanges in familiar and unfamiliar contexts, adjusting language to others.",
+          "sub_strand": "interacting",
+          "level_key": "9-10"
+        },
+        {
+          "code": "AC9LS10C02",
+          "title": "Negotiate diverse views",
+          "description": "contribute to discussions that involve diverse views to negotiate outcomes, address issues and compare experiences",
+          "capability_goal": "Students contribute to discussions involving diverse views to negotiate outcomes and compare experiences.",
+          "sub_strand": "interacting",
+          "level_key": "9-10"
+        },
+        {
+          "code": "AC9LS10C03",
+          "title": "Evaluate and synthesise across texts",
+          "description": "evaluate and synthesise information, ideas and perspectives in a broad range of spoken, written and multimodal texts and respond appropriately to cultural context, purpose and audience",
+          "capability_goal": "Students evaluate and synthesise information across a broad range of texts, responding to cultural context and audience.",
+          "sub_strand": "mediating",
+          "level_key": "9-10"
+        },
+        {
+          "code": "AC9LS10C04",
+          "title": "Interpret and translate for intercultural understanding",
+          "description": "interpret and translate non-verbal, spoken and written interactions and texts to convey meaning and intercultural understanding in familiar and unfamiliar contexts",
+          "capability_goal": "Students interpret and translate interactions and texts to convey meaning and intercultural understanding.",
+          "sub_strand": "mediating",
+          "level_key": "9-10"
+        },
+        {
+          "code": "AC9LS10C05",
+          "title": "Create texts for diverse audiences",
+          "description": "create and present informative and imaginative texts for diverse contexts and purposes, selecting vocabulary, expressions, grammatical structures and a range of features and conventions to engage different audiences",
+          "capability_goal": "Students create texts for diverse purposes selecting vocabulary, structures and conventions to engage different audiences.",
+          "sub_strand": "creating",
+          "level_key": "9-10"
+        },
+        {
+          "code": "AC9LS10U01",
+          "title": "Spoken features for fluency",
+          "description": "apply features and conventions of spoken the target language to extend fluency in responding to and creating texts in familiar and unfamiliar contexts",
+          "capability_goal": "Students apply spoken features to extend fluency in responding to and creating texts in varied contexts.",
+          "sub_strand": "understanding_systems",
+          "level_key": "9-10"
+        },
+        {
+          "code": "AC9LS10U02",
+          "title": "Grammar to predict and compose",
+          "description": "apply knowledge of grammatical structures to predict meaning and compose texts that contain some complex structures and ideas",
+          "capability_goal": "Students apply grammatical knowledge to predict meaning and compose texts with complex structures and ideas.",
+          "sub_strand": "understanding_systems",
+          "level_key": "9-10"
+        },
+        {
+          "code": "AC9LS10U03",
+          "title": "Evaluate texts using metalanguage",
+          "description": "reflect on and evaluate the target language texts, using metalanguage to analyse language structures and features",
+          "capability_goal": "Students reflect on and evaluate target language texts using metalanguage to analyse structures and features.",
+          "sub_strand": "understanding_systems",
+          "level_key": "9-10"
+        },
+        {
+          "code": "AC9LS10U04",
+          "title": "Evaluate identity and communication",
+          "description": "reflect on and evaluate how identity is shaped by language(s), culture(s), attitudes, beliefs and values, and how these affect ways of communicating",
+          "capability_goal": "Students evaluate how identity is shaped by languages and cultures and how these affect ways of communicating.",
+          "sub_strand": "understanding_culture",
+          "level_key": "9-10"
+        }
+      ]
+    }
+  },
+  "capability_threads": {
+    "description": "Languages F-10 capability sequences. Sub-strand structure is generic across all ACARA Languages pathways.",
+    "strands": {
+      "communicating": {
+        "label": "Communicating meaning in the target language",
+        "sub_strands": {
+          "interacting": {
+            "label": "Interacting in the target language",
+            "short_label": "Interacting",
+            "color": "#2563A8",
+            "sequence": [
+              "AC9LSF01",
+              "AC9LS2C01",
+              "AC9LS2C02",
+              "AC9LS4C01",
+              "AC9LS4C02",
+              "AC9LS6C01",
+              "AC9LS6C02",
+              "AC9LS8C01",
+              "AC9LS8C02",
+              "AC9LS10C01",
+              "AC9LS10C02"
+            ]
+          },
+          "mediating": {
+            "label": "Mediating meaning in and between languages",
+            "short_label": "Mediating",
+            "color": "#1E7A6A",
+            "sequence": [
+              "AC9LS2C03",
+              "AC9LS2C04",
+              "AC9LS4C03",
+              "AC9LS4C04",
+              "AC9LS6C03",
+              "AC9LS6C04",
+              "AC9LS8C03",
+              "AC9LS8C04",
+              "AC9LS10C03",
+              "AC9LS10C04"
+            ]
+          },
+          "creating": {
+            "label": "Creating text in the target language",
+            "short_label": "Creating",
+            "color": "#B06010",
+            "sequence": [
+              "AC9LS2C05",
+              "AC9LS4C05",
+              "AC9LS6C05",
+              "AC9LS8C05",
+              "AC9LS10C05"
+            ]
+          }
+        }
+      },
+      "understanding": {
+        "label": "Understanding language and culture",
+        "sub_strands": {
+          "understanding_systems": {
+            "label": "Understanding systems of language",
+            "short_label": "Language systems",
+            "color": "#5B3FA0",
+            "sequence": [
+              "AC9LSF02",
+              "AC9LS2U01",
+              "AC9LS2U02",
+              "AC9LS2U03",
+              "AC9LS4U01",
+              "AC9LS4U02",
+              "AC9LS4U03",
+              "AC9LS6U01",
+              "AC9LS6U02",
+              "AC9LS6U03",
+              "AC9LS8U01",
+              "AC9LS8U02",
+              "AC9LS8U03",
+              "AC9LS10U01",
+              "AC9LS10U02",
+              "AC9LS10U03"
+            ]
+          },
+          "understanding_culture": {
+            "label": "Understanding the interrelationship of language and culture",
+            "short_label": "Language & culture",
+            "color": "#C2185B",
+            "sequence": [
+              "AC9LSF03",
+              "AC9LS2U04",
+              "AC9LS4U04",
+              "AC9LS6U04",
+              "AC9LS8U04",
+              "AC9LS10U04"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

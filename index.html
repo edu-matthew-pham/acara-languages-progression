@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Languages Capability Progression Maps</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: system-ui, sans-serif; background: #f8f8f6; color: #2c2c2a; }
+  .header { padding: 20px 24px 0; }
+  h1 { font-size: 18px; font-weight: 500; }
+  .subtitle { font-size: 13px; color: #888; margin-top: 4px; }
+
+  .tabs {
+    display: flex; gap: 4px; padding: 16px 24px 0;
+    border-bottom: 1px solid #e0e0de; flex-wrap: wrap;
+  }
+  .tab {
+    font-size: 13px; padding: 7px 18px; border-radius: 8px 8px 0 0;
+    border: 1px solid transparent; border-bottom: none;
+    background: transparent; color: #888; cursor: pointer; transition: all .15s;
+    margin-bottom: -1px;
+  }
+  .tab.active {
+    background: #f8f8f6;
+    border-color: #e0e0de;
+    color: #2c2c2a;
+    font-weight: 500;
+  }
+
+  .controls {
+    display: flex; align-items: center; gap: 8px;
+    flex-wrap: wrap; padding: 14px 24px 12px;
+  }
+
+  .strand-btn {
+    font-size: 12px; padding: 5px 14px; border-radius: 20px;
+    border: 1px solid #ccc; background: #fff;
+    color: #555; cursor: pointer; transition: all .15s;
+  }
+
+  .panel { display: none; }
+  .panel.active { display: block; }
+
+  svg { display: block; }
+
+  #tooltip {
+    position: fixed; pointer-events: none; opacity: 0; transition: opacity .15s;
+    background: #fff; border: 1px solid #ddd; border-radius: 10px;
+    padding: 12px 14px; max-width: 300px; z-index: 999;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  }
+  #tooltip.show { opacity: 1; }
+  #tt-code  { font-size: 11px; margin-bottom: 3px; font-weight: 600; }
+  #tt-title { font-size: 13px; font-weight: 600; color: #222; margin-bottom: 6px; }
+  #tt-goal  { font-size: 12px; color: #555; line-height: 1.55; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Languages Capability Progression Maps</h1>
+  <p class="subtitle">
+  ACARA v9 — generic pathway maps for the target language
+</p>
+<p class="subtitle" style="max-width: 700px;">
+  These maps are language-agnostic and represent common progression structures. 
+  </p>
+  <p class="subtitle" style="max-width: 700px;">
+  They are not intended to fully capture the specific features or contexts of individual languages.
+</p>
+</div>
+
+<div class="tabs">
+  <button class="tab active" id="tab-f10-second" onclick="switchTab('f10-second')">F-10 Second Language</button>
+  <button class="tab" id="tab-710-second" onclick="switchTab('710-second')">7-10 Second Language Entry</button>
+  <button class="tab" id="tab-f10-background" onclick="switchTab('f10-background')">F-10 Background Language</button>
+  <button class="tab" id="tab-710-background" onclick="switchTab('710-background')">7-10 Background Language</button>
+</div>
+
+<div class="panel active" id="panel-f10-second">
+  <div class="controls" id="strand-controls-f10-second"></div>
+  <div style="overflow-x:auto; padding: 0 24px 32px;"><svg id="tree-svg-f10-second"></svg></div>
+</div>
+
+<div class="panel" id="panel-710-second">
+  <div class="controls" id="strand-controls-710-second"></div>
+  <div style="overflow-x:auto; padding: 0 24px 32px;"><svg id="tree-svg-710-second"></svg></div>
+</div>
+
+<div class="panel" id="panel-f10-background">
+  <div class="controls" id="strand-controls-f10-background"></div>
+  <div style="overflow-x:auto; padding: 0 24px 32px;"><svg id="tree-svg-f10-background"></svg></div>
+</div>
+
+<div class="panel" id="panel-710-background">
+  <div class="controls" id="strand-controls-710-background"></div>
+  <div style="overflow-x:auto; padding: 0 24px 32px;"><svg id="tree-svg-710-background"></svg></div>
+</div>
+
+<div id="tooltip">
+  <div id="tt-code"></div>
+  <div id="tt-title"></div>
+  <div id="tt-goal"></div>
+</div>
+
+<script>
+function switchTab(mode) {
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+  document.getElementById('tab-' + mode).classList.add('active');
+  document.getElementById('panel-' + mode).classList.add('active');
+}
+
+function initCapabilities(cfg) {
+  window.CAPABILITIES_CONFIG = cfg;
+  return new Promise(resolve => {
+    const s = document.createElement('script');
+    s.src = 'render-capabilities.js?' + cfg.svgId;
+    s.onload = resolve;
+    document.body.appendChild(s);
+  });
+}
+
+const LANG_BAND_ORDER_F10 = ["F", "1-2", "3-4", "5-6", "7-8", "9-10"];
+const LANG_BAND_LABELS_F10 = {
+  "F": "F",
+  "1-2": "Y1-2",
+  "3-4": "Y3-4",
+  "5-6": "Y5-6",
+  "7-8": "Y7-8",
+  "9-10": "Y9-10"
+};
+
+const LANG_BAND_ORDER_710 = ["7-8", "9-10"];
+const LANG_BAND_LABELS_710 = {
+  "7-8": "Y7-8",
+  "9-10": "Y9-10"
+};
+
+const LANG_STRAND_CONFIG = {
+  communicating: { color: "#2563A8", cssKey: "comm", label: "Communicating" },
+  understanding: { color: "#5B3FA0", cssKey: "under", label: "Understanding" }
+};
+
+(async () => {
+
+  await initCapabilities({
+    dataUrl: './languages_f10_capability_map.json',
+    bandOrder: LANG_BAND_ORDER_F10,
+    bandLabels: LANG_BAND_LABELS_F10,
+    strandConfig: LANG_STRAND_CONFIG,
+    strandOrder: ["communicating", "understanding"],
+    goalField: "capability_goal",
+    svgId: "tree-svg-f10-second",
+    controlsId: "strand-controls-f10-second"
+  });
+
+  await initCapabilities({
+    dataUrl: './languages_710_capability_map.json',
+    bandOrder: LANG_BAND_ORDER_710,
+    bandLabels: LANG_BAND_LABELS_710,
+    strandConfig: LANG_STRAND_CONFIG,
+    strandOrder: ["communicating", "understanding"],
+    goalField: "capability_goal",
+    svgId: "tree-svg-710-second",
+    controlsId: "strand-controls-710-second"
+  });
+
+  await initCapabilities({
+    dataUrl: './languages_background_f10_capability_map.json',
+    bandOrder: LANG_BAND_ORDER_F10,
+    bandLabels: LANG_BAND_LABELS_F10,
+    strandConfig: LANG_STRAND_CONFIG,
+    strandOrder: ["communicating", "understanding"],
+    goalField: "capability_goal",
+    svgId: "tree-svg-f10-background",
+    controlsId: "strand-controls-f10-background"
+  });
+
+  await initCapabilities({
+    dataUrl: './languages_background_710_capability_map.json',
+    bandOrder: LANG_BAND_ORDER_710,
+    bandLabels: LANG_BAND_LABELS_710,
+    strandConfig: LANG_STRAND_CONFIG,
+    strandOrder: ["communicating", "understanding"],
+    goalField: "capability_goal",
+    svgId: "tree-svg-710-background",
+    controlsId: "strand-controls-710-background"
+  });
+
+})();
+</script>
+
+</body>
+</html>
